@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '14.x'
+        node-version: '12.x'
 
     - name: npm install, build, and test
       run: |
@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'test2NodeRed'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f394b6643f7f4482ae30716e04b059af }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_40ba7f400d8841c6b060d3dface0ac22 }}
         package: .
