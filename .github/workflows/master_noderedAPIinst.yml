@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'noderedAPIinst'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dc79745dafcc44e6b7db7f7e002be632 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d834a51d0e0a46dc9d2e99c2e33f9d89 }}
         package: .
